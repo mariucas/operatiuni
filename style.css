@@ -10,6 +10,18 @@
     padding: 18px;
     box-shadow: 4px 4px 4px #4f4f4f;
 }
+.buttons {
+display: grid;
+grid-template-areas:
+" ac  ac ac division"
+" seven eight nine multi"
+"four five six minus"
+" one two three plus"
+" zero zero dot equal";
+grid-gap: 7px;
+justify-items: center;
+}
+
 .btn{
     width: 60px;
     height: 60px;
