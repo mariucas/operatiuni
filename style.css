@@ -13,7 +13,7 @@
 .buttons {
 display: grid;
 grid-template-areas:
-" ac  ac ac division"
+" ac plus-minus percent division"
 " seven eight nine multi"
 "four five six minus"
 " one two three plus"
