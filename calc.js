@@ -42,6 +42,7 @@ function clearAll () {
         }
         console.table(a,b , sign);
         return;
+    }
 
 
         if ( action.includes(key)) {
@@ -77,5 +78,5 @@ function clearAll () {
             out.textContent = a;
             console.table(a, b, sign);
         }
-   }
+   
    
