@@ -20,12 +20,13 @@ function clearAll () {
    document.querySelector('.buttons').onclik = (Event) => {
        if(!Event.target.classList.contains('btn')) return;
        if(Event.target.classList.contains('ac')) return;
-   }
+   
    
    out.textContent= '';
-   const key = Event.target;
-
+   const key = Event.target. textContent;
+   
   if(digit.includes(key)) {
       a+=key;
       console.log(a, b, sign);
   }
+}
