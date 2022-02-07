@@ -9,10 +9,10 @@ const action = ['-', '+','X','/'];
 const out = document.querySelector('.calc-screen p');
 
 function clearAll () {
-    a='';
-    b='';
-    sign='';
-    finish=false;
+    a ='';
+    b ='';
+    sign ='';
+    finish = false;
     out.textContent = 0;
 }
    document.querySelector('.ac').onclik = clearAll;
@@ -22,11 +22,11 @@ function clearAll () {
        if(Event.target.classList.contains('ac')) return;
    
    
-   out.textContent= '';
-   const key = Event.target. textContent;
+   out.textContent = '';
+   const key = Event.target.textContent;
    
-  if(digit.includes(key)) {
-      a+=key;
+  if (digit.includes(key)) {
+      a += key;
       console.log(a, b, sign);
   }
 }
