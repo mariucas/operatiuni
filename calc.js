@@ -22,8 +22,8 @@ function clearAll () {
        if(Event.target.classList.contains('ac')) return;
    }
    
-   out.textContent = '';
-   const key = Event.target.textContent;
+   out.textContent= '';
+   const key = Event.target;
 
   if(digit.includes(key)) {
       a+=key;
