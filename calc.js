@@ -18,12 +18,12 @@ function clearAll () {
    document.querySelector('.ac').onclik = clearAll ;
 
    document.querySelector('.buttons').onclik = (Event) => {
-       if(!Event.target.classList.contains('btn')) return;
-       if(Event.target.classList.contains('ac')) return;
+       if(!EventTarget.classList.contains('btn')) return;
+       if(EventTarget.classList.contains('ac')) return;
    
    
    out.textContent = '';
-   const key = Event.target.textContent;
+   const key = EventTarget.textContent;
    
   if (digit.includes(key)) {
       a += key;
