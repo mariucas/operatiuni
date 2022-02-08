@@ -15,7 +15,7 @@ function clearAll () {
     finish = false;
     out.textContent = 0;
 }
-   document.querySelector('.ac').onclik = clearAll;
+   document.querySelector('.ac').onclik = clearAll ;
 
    document.querySelector('.buttons').onclik = (Event) => {
        if(!Event.target.classList.contains('btn')) return;
